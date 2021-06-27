@@ -1,0 +1,120 @@
+body {
+    background-color: green;
+    margin: 0px;
+}
+
+.intro-page {
+    text-align: center;
+    text-transform: uppercase;
+    color: goldenrod;
+    background-color: green;
+    margin-top: 0rem;
+}
+
+.intro-page:hover {
+    color: black;
+    transition: 0.1s;
+}
+
+.quotes-wrapper {
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 0rem;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    margin-top: 0rem;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    color: transparent;
+}
+
+.quote-wrapper:hover {
+    color: gold;
+    transition: 0.1s;
+    filter: brightness(60%);
+}
+
+.basic-tops {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 0rem;
+}
+
+.left-side {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.right-side {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.link-wrapper {
+    margin-right: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.1s;
+}
+
+.link-wrapper a {
+    color: goldenrod;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.link-wrapper a:hover {
+    color: black;
+}
+
+.active-link {
+    border-bottom: 1px solid black;
+}
+
+.active-link a {
+    color: black !important;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4px;
+}
+
+.myPhoto {
+    height: 705px;
+}
+
+.about-text {
+    margin-right: 0rem;
+    width: 894px;
+    filter: brightness(30%);
+    color: green;
+    text-align: center;
+    text-transform: lowercase;
+    vertical-align: middle;
+}
+
+.about-paragraph {
+    margin-top: 10rem;
+}
+
+.about-text:hover {
+    filter: brightness(100%);
+}
+
+.about-paragraph:hover {
+    text-transform: uppercase;
+}
